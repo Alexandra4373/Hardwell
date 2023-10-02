@@ -122,7 +122,7 @@ function App() {
             </div>
             <div className="flex-1 ">
               <h6 className="mt-5">ABOUT</h6>
-              <h2 className="font-inter font-semibold  text-[3.475rem] mb-5 leading-tight">
+              <h2 className="font-inter font-semibold  text-[2.475rem] mb-5 leading-tight">
                 Creating, Communicating & Delivering
               </h2>
               <p className="font-inter font-light mb-5">
