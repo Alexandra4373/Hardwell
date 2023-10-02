@@ -121,14 +121,14 @@ function App() {
               <img src={about} alt="" />
             </div>
             <div className="flex-1 ">
-              <h6>ABOUT</h6>
+              <h6 className="mt-5">ABOUT</h6>
               <h2 className="font-inter font-semibold  text-[3.475rem] mb-5 leading-tight">
-                Let your visitors know about your features.
+                Creating, Communicating & Delivering
               </h2>
-              <p className="font-inter text-lg mb-5">
-                We develop enjoyable consumer experiences, from digital strategy
-                and content to media and analysis. Leading to meaningful results
-                and satisfied clients.
+              <p className="font-inter text-extralight mb-5">
+                Web designers plan, create and code internet sites and web
+                pages, many of which combine text with sounds, pictures,
+                graphics and video clips.
               </p>
               <h6>Learn more</h6>
             </div>
