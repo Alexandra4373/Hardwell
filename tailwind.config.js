@@ -4,13 +4,25 @@ export default {
   theme: {
     extend: {
       colors: {
-				primary: "#756BEE",
+				primary: "#EA3D3C",
 				second: "#39364E",
 			},
+
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        
+      },
+
 			container: {
-				padding: "2rem",
+				padding: "1.2rem",
 				center: true,
 			},
+      screens: {
+        sm: "768px",
+        md: "1060px",
+        lg: "1200px",
+       
+      },
     },
   },
   plugins: [],
