@@ -3,6 +3,7 @@ import creative from "./assets/creative.png";
 import product from "./assets/product.png";
 import design from "./assets/design.png";
 import marketing from "./assets/marketing.png";
+import about from "./assets/about.png";
 
 function App() {
   return (
@@ -109,6 +110,27 @@ function App() {
                   happening.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* About*/}
+        <div className="py-20">
+          <div className="container flex sm:flex-col md:flex-row gap-10 items-center">
+            <div className="flex-1 ">
+              <img src={about} alt="" />
+            </div>
+            <div className="flex-1 ">
+              <h6>ABOUT</h6>
+              <h2 className="font-inter font-semibold  text-[3.475rem] mb-5 leading-tight">
+                Let your visitors know about your features.
+              </h2>
+              <p className="font-inter text-lg mb-5">
+                We develop enjoyable consumer experiences, from digital strategy
+                and content to media and analysis. Leading to meaningful results
+                and satisfied clients.
+              </p>
+              <h6>Learn more</h6>
             </div>
           </div>
         </div>
