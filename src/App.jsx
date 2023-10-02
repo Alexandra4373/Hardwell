@@ -1,5 +1,8 @@
 import hardwell from "./assets/hardwell.png";
 import creative from "./assets/creative.png";
+import product from "./assets/product.png";
+import design from "./assets/design.png";
+import marketing from "./assets/marketing.png";
 
 function App() {
   return (
@@ -52,6 +55,59 @@ function App() {
                 <div className="flex-1">
                   <img src={creative} alt="" />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Explore */}
+        <div className="bg-[#FFFFF] py-20">
+          <div className="container">
+            <h2 className="font-semibold text-[2.475rem] mb-5 text-center leading-tight">
+              Explore Service
+            </h2>
+            <p className=" text-lg mb-10 text-center">
+              The sky was cloudless and of a deep dark blue spectacle before us
+              was indeed sublime.
+            </p>
+
+            <div className="flex flex-wrap gap-10">
+              <div className="flex-1 p-10 bg-white">
+                <div className="mb-5 flex justify-start">
+                  <img src={product} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[26px] mb-5 text-center">
+                  Product Management
+                </p>
+                <p className="font-inter text-base text-start">
+                  Stay on top of your task lists and stay in touch with what's
+                  happening
+                </p>
+              </div>
+              <div className="flex-1 p-10 ">
+                <div className="mb-5 flex justify-start">
+                  <img src={design} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[26px] mb-5 text-center">
+                  Design & Creatives
+                </p>
+                <p className="font-inter text-base text-center">
+                  Stay on top of your task lists and stay in touch with what's
+                  happening
+                </p>
+              </div>
+
+              <div className="flex-1 p-10 bg-white">
+                <div className="mb-5 flex justify-start">
+                  <img src={marketing} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[26px] mb-5 text-center">
+                  Marketing & Communication
+                </p>
+                <p className="font-inter text-base text-start">
+                  Stay on top of your task lists and stay in touch with what's
+                  happening.
+                </p>
               </div>
             </div>
           </div>
