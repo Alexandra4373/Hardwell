@@ -76,10 +76,10 @@ function App() {
                 <div className="mb-5 flex justify-start">
                   <img src={product} alt="" />
                 </div>
-                <p className="font-inter font-semibold text-[26px] mb-5 text-center">
+                <p className="font-inter font-semibold text-[20px] text-start">
                   Product Management
                 </p>
-                <p className="font-inter text-base text-start">
+                <p className="font-inter text-base mt-5 text-start">
                   Stay on top of your task lists and stay in touch with what's
                   happening
                 </p>
@@ -88,10 +88,10 @@ function App() {
                 <div className="mb-5 flex justify-start">
                   <img src={design} alt="" />
                 </div>
-                <p className="font-inter font-semibold text-[26px] mb-5 text-center">
+                <p className="font-inter font-semibold text-[20px]  text-start">
                   Design & Creatives
                 </p>
-                <p className="font-inter text-base text-center">
+                <p className="font-inter text-base mt-5 text-start">
                   Stay on top of your task lists and stay in touch with what's
                   happening
                 </p>
@@ -101,10 +101,10 @@ function App() {
                 <div className="mb-5 flex justify-start">
                   <img src={marketing} alt="" />
                 </div>
-                <p className="font-inter font-semibold text-[26px] mb-5 text-center">
+                <p className="font-inter font-semibold text-[20px]  text-start">
                   Marketing & Communication
                 </p>
-                <p className="font-inter text-base text-start">
+                <p className="font-inter text-base mt-5 text-start">
                   Stay on top of your task lists and stay in touch with what's
                   happening.
                 </p>
