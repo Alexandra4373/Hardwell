@@ -125,12 +125,12 @@ function App() {
               <h2 className="font-inter font-semibold  text-[3.475rem] mb-5 leading-tight">
                 Creating, Communicating & Delivering
               </h2>
-              <p className="font-inter text-extralight mb-5">
+              <p className="font-inter font-light mb-5">
                 Web designers plan, create and code internet sites and web
                 pages, many of which combine text with sounds, pictures,
                 graphics and video clips.
               </p>
-              <h6>Learn more</h6>
+              <h6 className="font-medium">Learn more</h6>
             </div>
           </div>
         </div>
