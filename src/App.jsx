@@ -72,7 +72,7 @@ function App() {
               was indeed sublime.
             </p>
 
-            <div className="flex flex-wrap gap-10">
+            <div className="flex flex-wrap sm:flex-col md:flex-row gap-10">
               <div className="flex-1 p-10 bg-white">
                 <div className="mb-5 flex justify-start">
                   <img src={product} alt="" />
