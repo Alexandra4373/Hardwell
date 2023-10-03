@@ -151,7 +151,8 @@ function App() {
               <div className="flex-1 sm:mb-10">
                 <h6>User Interface</h6>
                 <h2 className="font-outfit font-semibold text-[3.475rem] leading-tight mb-5">
-                  Creative Agency & Portfolio
+                  Creative Agency & <br />
+                  Portfolio
                 </h2>
                 <p className="font-dmsans text-base mb-5">
                   Web designers plan, create and code internet sites and web
