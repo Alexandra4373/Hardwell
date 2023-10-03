@@ -136,8 +136,8 @@ function App() {
           </div>
         </div>
         {/*Discover our work */}
-        <div className="bg-primary py-20">
-          <div className="container  text-white">
+        <div className="py-20">
+          <div className="container">
             <div className="">
               <h2 className="font-inter font-semibold text-[3.475rem] mb-5 text-center leading-tight">
                 Discover Our Work
@@ -147,20 +147,21 @@ function App() {
                 of a website.
               </p>
             </div>
-            <div className="flex gap-10">
-              <div className="flex-1 sm:mb-10">
-                <h6>User Interface</h6>
-                <h2 className="font-outfit font-semibold text-[3.475rem] leading-tight mb-5">
-                  Creative Agency & <br />
-                  Portfolio
-                </h2>
-                <p className="font-dmsans text-base mb-5">
-                  Web designers plan, create and code internet sites and web
-                  pages, text with sounds.
-                </p>
-              </div>
-              <div className="flex-1">
-                <img src={agency} alt="" />
+            <div className="bg-primary text-white  py-10">
+              <div className="flex gap-10">
+                <div className="flex-1  sm:mb-10">
+                  <h6>User Interface</h6>
+                  <h2 className="font-outfit font-semibold text-[3.475rem] leading-tight mb-5">
+                    Creative Agency <br />& Portfolio
+                  </h2>
+                  <p className="font-dmsans text-base mb-5">
+                    Web designers plan, create and code internet sites and web
+                    pages, text with sounds.
+                  </p>
+                </div>
+                <div className="flex-1">
+                  <img src={agency} alt="" />
+                </div>
               </div>
             </div>
           </div>
