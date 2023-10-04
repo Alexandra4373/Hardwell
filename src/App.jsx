@@ -7,6 +7,8 @@ import about from "./assets/about.png";
 import agency from "./assets/agency.png";
 import lindi from "./assets/lindi.png";
 import mayo from "./assets/mayo.png";
+import analyze from "./assets/analyze.png";
+import check from "./assets/check.png";
 
 function App() {
   return (
@@ -206,25 +208,31 @@ function App() {
 
         {/* Analyze % Improve */}
         <div className="py-20">
-          <div className="container flex sm:flex-col md:flex-row items-center text-second">
+          <div className="container flex sm:flex-col md:flex-row items-center gap-10 ">
             <div className="flex-1 sm:mb-10">
-              <h2 className="font-outfit font-semibold text-[3.475rem] leading-tight mb-5">
-                Peed Of Creative Service For Your Business Growth
+              <h2 className="font-semibold text-[3.475rem] leading-tight mb-5">
+                Analyze <br />& Improve
               </h2>
-              <p className="font-dmsans text-base mb-5">
-                We recruit doctors with the best honors and graduates at their
-                universities, with a very broad and extraordinary experience
-                they grow into professional doctors
-              </p>
-
-              <p className="font-dmsans text-base">
-                then received extraordinary supplies, guided for 2 years, they
-                already understand very well about existing diseases and how to
-                handle them properly
+              <p className="font-inter text-base mb-5">
+                Web designer is responsible for creating the design and layout
+                of a website or web pages. It and can mean working on a brand
+                new website.
+                <div className="flex flex-row mt-10">
+                  <img src={check} />
+                  <h4 className="ml-3">Well Planned Architecture</h4>
+                </div>
+                <div className="flex flex-row mt-5">
+                  <img src={check} />
+                  <h4 className="ml-3">Accessible to All Users</h4>
+                </div>
+                <div className="flex flex-row mt-5">
+                  <img src={check} />
+                  <h4 className="ml-3">Mobile Compatibility</h4>
+                </div>
               </p>
             </div>
             <div className="flex-1">
-              <img src={peed} alt="" />
+              <img src={analyze} alt="" />
             </div>
           </div>
         </div>
