@@ -6,6 +6,9 @@ export default {
       colors: {
 				primary: "#EA3D3C",
 				second: "#39364E",
+        secondary: "#9CD1C1",
+        tert: "#F5AD0D" ,
+        quart: "#FB690C" ,
 			},
 
       fontFamily: {
