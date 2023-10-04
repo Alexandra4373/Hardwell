@@ -13,6 +13,7 @@ import dominik from "./assets/dominik.png";
 import capmany from "./assets/capmany.png";
 import alicia from "./assets/alicia.png";
 import anton from "./assets/anton.png";
+imoprt billy from "./assets/billy.png";
 
 function App() {
   return (
@@ -303,74 +304,36 @@ function App() {
         <div className="bg-[#F5F4F0] py-20">
           <div className="container text-second">
             <h3 className="text-center font-outfit font-semibold text-[42px] mb-5">
-              Our Testimonial
+              Our Testimonials
             </h3>
             <p className="text-center font-dmsans text-base mb-10">
-              We believe scaling startups require a radically different kind of
-              agency
+			Read some awesome feedback from our students all over the world. We are giving the best to our students
             </p>
 
-            {/* testimonial boxes */}
+            {/* testimonials */}
             <div className="flex md:flex-row sm:flex-wrap sm:flex-col gap-5">
               <div className="flex-1 flex gap-3 rounded-2xl bg-white px-8 py-12">
                 <div className="">
-                  <img src={vincent} alt="" />
+					<p>Lorem ipsum dolor sit amet, con adipiscing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						 Ut enim ad minim veniam, quis</p>
+                  <img src={billy} alt="" />
                 </div>
-                <div className="font-dmsans">
-                  <p className="text-[15px] text-[#696969] mb-3">
-                    The experts easily identified the wand guided us through the
-                    creation of the c.
-                  </p>
-                  <p className="font-medium mb-2">I love Sway 😍</p>
-                  <hr />
-                  <p className="text-[15px]">
-                    <span className="text-primary font-bold text-base">
-                      Vincent Smith
-                    </span>
-                    {"  "}
-                    CEO at Ritmo
-                  </p>
                 </div>
               </div>
               <div className="flex-1 flex gap-3 rounded-2xl bg-white px-8 py-12">
                 <div className="">
-                  <img src={vincent} alt="" />
+					<p>Lorem ipsum dolor sit amet, con adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                  <img src={billy} alt="" />
                 </div>
-                <div className="font-dmsans">
-                  <p className="text-[15px] text-[#696969] mb-3">
-                    The experts easily identified the wand guided us through the
-                    creation of the c.
-                  </p>
-                  <p className="font-medium mb-2">I love Sway 😍</p>
-                  <hr />
-                  <p className="text-[15px]">
-                    <span className="text-primary font-bold text-base">
-                      Vincent Smith
-                    </span>
-                    {"  "}
-                    CEO at Ritmo
-                  </p>
-                </div>
+                
               </div>
               <div className="flex-1 flex gap-3 rounded-2xl bg-white px-8 py-12">
                 <div className="">
-                  <img src={vincent} alt="" />
+					<p>Lorem ipsum dolor sit amet, con adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                  <img src={billy} alt="" />
                 </div>
-                <div className="font-dmsans">
-                  <p className="text-[15px] text-[#696969] mb-3">
-                    The experts easily identified the wand guided us through the
-                    creation of the c.
-                  </p>
-                  <p className="font-medium mb-2">I love Sway 😍</p>
-                  <hr />
-                  <p className="text-[15px]">
-                    <span className="text-primary font-bold text-base">
-                      Vincent Smith
-                    </span>
-                    {"  "}
-                    CEO at Ritmo
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
