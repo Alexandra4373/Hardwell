@@ -9,6 +9,10 @@ import lindi from "./assets/lindi.png";
 import mayo from "./assets/mayo.png";
 import analyze from "./assets/analyze.png";
 import check from "./assets/check.png";
+import dominik from "./assets/dominik.png";
+import capmany from "./assets/capmany.png";
+import alicia from "./assets/alicia.png";
+import anton from "./assets/anton.png";
 
 function App() {
   return (
@@ -233,6 +237,65 @@ function App() {
             </div>
             <div className="flex-1">
               <img src={analyze} alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="py-20">
+          <div className="container">
+            <h2 className="font-semibold text-[2.475rem] mb-5 text-center leading-tight">
+              Team Members
+            </h2>
+            <p className=" text-lg mb-10 text-center">
+              Combine text with sounds, picyures, graphics and video clips.
+            </p>
+
+            <div className="flex flex-wrap sm:flex-col sm:justify-center md:flex-row">
+              <div className="flex-1 ">
+                <div className="mb-5 flex justify-start">
+                  <img src={dominik} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px] text-start">
+                  Bernarr Dominik
+                </p>
+                <p className="font-inter text-base mt-2 font-light text-start">
+                  Founder
+                </p>
+              </div>
+              <div className="flex-1 ">
+                <div className="mb-5 flex justify-start">
+                  <img src={capmany} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px]  text-start">
+                  Fabiana Capmany
+                </p>
+                <p className="font-inter text-base mt-2 font-light text-start">
+                  Account Manager
+                </p>
+              </div>
+
+              <div className="flex-1  ">
+                <div className="mb-5 flex justify-start">
+                  <img src={alicia} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px]  text-start">
+                  Alicia Stanger
+                </p>
+                <p className="font-inter text-base font-light mt-2 text-start">
+                  Designer
+                </p>
+              </div>
+              <div className="flex-1  ">
+                <div className="mb-3 flex justify-start">
+                  <img src={anton} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px]  text-start">
+                  Anton Brownstein
+                </p>
+                <p className="font-inter text-base font-light mt-2 text-start">
+                  Developer
+                </p>
+              </div>
             </div>
           </div>
         </div>
