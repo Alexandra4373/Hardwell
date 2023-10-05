@@ -313,7 +313,7 @@ function App() {
             </p>
 
             <div className="flex flex-wrap sm:flex-col sm:justify-center md:flex-row gap-10">
-              <div className="flex-1 p-10 bg-white">
+              <div className="flex-1 p-10 shadow-xl">
                 <p className="font-inter text-base mt-5">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -327,7 +327,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="flex-1 p-10 ">
+              <div className="flex-1 p-10 shadow-xl ">
                 <p className="font-inter text-base mt-5 text-start">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -342,7 +342,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex-1 p-10 border rounded border-slate-950">
+              <div className="flex-1 p-10 shadow-xl">
                 <p className="font-inter text-base mt-5 ">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
