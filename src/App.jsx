@@ -314,15 +314,17 @@ function App() {
 
             <div className="flex flex-wrap sm:flex-col sm:justify-center md:flex-row gap-10">
               <div className="flex-1 p-10 bg-white">
-                <p className="font-inter text-base mt-5 text-start">
+                <p className="font-inter text-base mt-5">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                   enim ad minim veniam, quis
                 </p>
-                <div className="mb-5 flex justify-start">
+                <div className="mb-5 flex mt-5">
                   <img src={billy} alt="" />
-                  <h4>BILLY ROOT</h4>
-                  <h5>Torest</h5>
+                  <div className="flex flex-col">
+                    <h4>BILLY ROOT</h4>
+                    <h5>Torest</h5>
+                  </div>
                 </div>
               </div>
               <div className="flex-1 p-10 ">
@@ -331,23 +333,27 @@ function App() {
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                   enim ad minim veniam, quis
                 </p>
-                <div className="mb-5 flex justify-start">
+                <div className="mb-5 flex mt-5">
                   <img src={billy} alt="" />
-                  <h4>BILLY ROOT</h4>
-                  <h5>Torest</h5>
+                  <div className="flex flex-col">
+                    <h4>BILLY ROOT</h4>
+                    <h5>Torest</h5>
+                  </div>
                 </div>
               </div>
 
-              <div className="flex-1 p-10 bg-white">
-                <p className="font-inter text-base mt-5 text-start">
+              <div className="flex-1 p-10 shadow-md ">
+                <p className="font-inter text-base mt-5 ">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                   enim ad minim veniam, quis
                 </p>
-                <div className="mb-5 flex justify-start">
+                <div className="mb-5 flex mt-5">
                   <img src={billy} alt="" />
-                  <h4>BILLY ROOT</h4>
-                  <h5>Torest</h5>
+                  <div className="flex flex-col">
+                    <h4>BILLY ROOT</h4>
+                    <h5>Torest</h5>
+                  </div>
                 </div>
               </div>
             </div>
