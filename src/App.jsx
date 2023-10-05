@@ -22,9 +22,9 @@ import travel from "./assets/travel.png";
 import blog1 from "./assets/blog1.png";
 import blog2 from "./assets/blog2.png";
 import blog3 from "./assets/blog3.jpg";
-import facebook from "./assets/facebook .png";
-import twitter from "./assets/twitter .png";
-import instagram from "./assets/instagram .png";
+import facebook from "./assets/facebook.png";
+import twitter from "./assets/twitter.png";
+import instagram from "./assets/instagram.png";
 import youtube from "./assets/youtube.png";
 
 function App() {
