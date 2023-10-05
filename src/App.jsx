@@ -195,21 +195,21 @@ function App() {
 
         <div className="py-20">
           <div className="container flex justify-center md:flex-row sm:flex-wrap sm:flex-col sm:gap-10">
-            <div className="flex-1 text-secondary text-center border rounded border-slate-950 py-8 ">
+            <div className="flex-1 text-secondary text-center border rounded py-8 ">
               <h1 className="">
                 4.200 <span>%</span>
               </h1>
 
               <h3>Revenue</h3>
             </div>
-            <div className="flex-1 text-tert text-center border rounded border-slate-950 py-8">
+            <div className="flex-1 text-tert text-center border rounded  py-8">
               <h1 className="">
                 73<span>+</span>
               </h1>
 
               <h3>Projects</h3>
             </div>
-            <div className="flex-1 text-quart text-center border rounded border-slate-950 py-8">
+            <div className="flex-1 text-quart text-center border rounded py-8">
               <h1 className="">
                 499.5<span>+</span>
               </h1>
@@ -321,7 +321,7 @@ function App() {
             </p>
 
             <div className="flex flex-wrap sm:flex-col sm:justify-center md:flex-row gap-10">
-              <div className="flex-1 p-10 shadow-xl">
+              <div className="flex-1 p-10 border rounded">
                 <p className="font-inter text-base mt-5">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -335,7 +335,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="flex-1 p-10 shadow-xl ">
+              <div className="flex-1 p-10 border rounded ">
                 <p className="font-inter text-base mt-5 text-start">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -350,7 +350,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex-1 p-10 shadow-xl">
+              <div className="flex-1 p-10 border rounded">
                 <p className="font-inter text-base mt-5 ">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -397,13 +397,13 @@ function App() {
         {/* Latest blogs*/}
         <div className=" py-20">
           <div className="container">
-            <h2 className="font-inter font-semibold text-[3.475rem] mb-5 text-center leading-tight">
+            <h2 className="font-inter font-bold text-[2.475rem] mb-5 text-center leading-tight">
               Latest blogs
             </h2>
 
             {/* Blogs */}
             <div className="flex flex-wrap gap-10">
-              <div className="flex-1 p-10 bg-white">
+              <div className="flex-1 p-10 border rounded">
                 <div className="mb-5 flex justify-center">
                   <img src={blog1} alt="" />
                 </div>
@@ -414,10 +414,10 @@ function App() {
                   Leverage agile frameworks to provide a robust synopsis for
                   high level overviews. Iterative approaches.
                 </p>
-                <h5 className="mt-5">Read more</h5>
+                <h5 className="mt-5 underline text-tert">Read more</h5>
               </div>
 
-              <div className="flex-1 p-10">
+              <div className="flex-1 p-10 border rounded">
                 <div className="mb-5 flex justify-center">
                   <img src={blog2} alt="" />
                 </div>
@@ -428,10 +428,10 @@ function App() {
                   Leverage agile frameworks to provide a robust synopsis for
                   high level overviews. Iterative approaches.
                 </p>
-                <h5 className="mt-5">Read more</h5>
+                <h5 className="mt-5 underline text-secondary">Read more</h5>
               </div>
 
-              <div className="flex-1 p-10 bg-white">
+              <div className="flex-1 p-10 border rounded">
                 <div className="mb-5 flex justify-center">
                   <img src={blog3} alt="" />
                 </div>
@@ -442,7 +442,7 @@ function App() {
                   Leverage agile frameworks to provide a robust synopsis for
                   high level overviews. Iterative approaches.
                 </p>
-                <h5 className="mt-5">Read more</h5>
+                <h5 className="mt-5 underline text-quart">Read more</h5>
               </div>
             </div>
           </div>
