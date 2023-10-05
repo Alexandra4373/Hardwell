@@ -14,6 +14,10 @@ import capmany from "./assets/capmany.png";
 import alicia from "./assets/alicia.png";
 import anton from "./assets/anton.png";
 import billy from "./assets/billy.png";
+import digitalside from "./assets/digitalside.png";
+import fuzion from "./assets/fuzion.png";
+import vortex from "./assets/vortex.png";
+import travel from "./assets/travel.png";
 
 function App() {
   return (
@@ -46,7 +50,7 @@ function App() {
 
             {/* Hero */}
             <div className="">
-              <div className="flex md:flex-row sm:flex-col gap-20 justify-center items-center py-10">
+              <div className="flex md:flex-row sm:flex-col gap-10 justify-center items-center py-10">
                 <div className="flex-1 flex gap-5 flex-col">
                   <p>Ninad Creative Agency</p>
                   <h1 className="font-inter font-bold text-[3.25rem]">
@@ -356,6 +360,33 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Clients */}
+        <div className="py-20">
+          <div className="container flex flex-col items-center">
+            <p className="font-outfit text-center mb-10">Our Famous Clients</p>
+            <div className="gap-10 flex sm:flex-wrap sm:items-center sm:justify-center">
+              <div className="">
+                <img src={digitalside} alt="" />
+              </div>
+              <div className="">
+                <img src={digitalside} alt="" />
+              </div>
+              <div className="">
+                <img src={vortex} alt="" />
+              </div>
+              <div className="">
+                <img src={travel} alt="" />
+              </div>
+              <div className="">
+                <img src={fuzion} alt="" />
+              </div>
+              {/* <div className="">
+                <img src={} alt="" />
+              </div> */}
             </div>
           </div>
         </div>
