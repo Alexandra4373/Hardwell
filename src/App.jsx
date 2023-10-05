@@ -497,7 +497,7 @@ function App() {
           {/* Bottom  footer */}
           <div className="container text-white mt-5 flex md:flex-row sm:flex-col sm:gap-5 justify-between">
             <p>Copyright 2020 Laaqiq. All Rights Reserved</p>
-            <p>Terms of Use</p>
+            <p className="ml-10">Terms of Use</p>
             <p>Privacy Policy</p>
           </div>
         </div>
