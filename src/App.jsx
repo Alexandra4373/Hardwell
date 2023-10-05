@@ -14,6 +14,7 @@ import capmany from "./assets/capmany.png";
 import alicia from "./assets/alicia.png";
 import anton from "./assets/anton.png";
 import billy from "./assets/billy.png";
+import clickCenter from "./assets/clickCenter.png";
 import digitalside from "./assets/digitalside.png";
 import fuzion from "./assets/fuzion.png";
 import vortex from "./assets/vortex.png";
@@ -367,10 +368,12 @@ function App() {
         {/* Clients */}
         <div className="py-20">
           <div className="container flex flex-col items-center">
-            <p className="font-outfit text-center mb-10">Our Famous Clients</p>
+            <p className="font-inter font-bold text-xl text-center mb-10">
+              Our Famous Clients
+            </p>
             <div className="gap-10 flex sm:flex-wrap sm:items-center sm:justify-center">
               <div className="">
-                <img src={digitalside} alt="" />
+                <img src={clickCenter} alt="" />
               </div>
               <div className="">
                 <img src={digitalside} alt="" />
