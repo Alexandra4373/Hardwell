@@ -321,7 +321,7 @@ function App() {
                 </p>
                 <div className="mb-5 flex mt-5">
                   <img src={billy} alt="" />
-                  <div className="flex flex-col">
+                  <div className="flex flex-col ml-5">
                     <h4>BILLY ROOT</h4>
                     <h5>Torest</h5>
                   </div>
@@ -335,14 +335,14 @@ function App() {
                 </p>
                 <div className="mb-5 flex mt-5">
                   <img src={billy} alt="" />
-                  <div className="flex flex-col">
+                  <div className="flex flex-col ml-5">
                     <h4>BILLY ROOT</h4>
                     <h5>Torest</h5>
                   </div>
                 </div>
               </div>
 
-              <div className="flex-1 p-10 shadow-md ">
+              <div className="flex-1 p-10 border rounded border-slate-950">
                 <p className="font-inter text-base mt-5 ">
                   Lorem ipsum dolor sit amet, con adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -350,7 +350,7 @@ function App() {
                 </p>
                 <div className="mb-5 flex mt-5">
                   <img src={billy} alt="" />
-                  <div className="flex flex-col">
+                  <div className="flex flex-col ml-5">
                     <h4>BILLY ROOT</h4>
                     <h5>Torest</h5>
                   </div>
