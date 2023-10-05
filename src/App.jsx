@@ -22,6 +22,9 @@ import travel from "./assets/travel.png";
 import blog1 from "./assets/blog1.png";
 import blog2 from "./assets/blog2.png";
 import blog3 from "./assets/blog3.jpg";
+import facebook from "./assets/facebook.png";
+import twitter from "./assets/twitter.png";
+import instagram from "./assets/instagram.png";
 
 function App() {
   return (
@@ -445,6 +448,59 @@ function App() {
                 <h5 className="mt-5 underline text-quart">Read more</h5>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="bg-black py-20">
+          <div className="container text-white">
+            {/* Top footer */}
+            <div className="flex sm:flex-wrap justify-between mb-5">
+              <div className="">
+                <h1>WD</h1>
+              </div>
+
+              <div className="flex flex-wrap md:flex-row sm:flex-col  text-base">
+                <div className="flex-1 sm:mb-5">
+                  <p className="mb-4">MENU</p>
+                  <ul className="flex flex-col gap-2">
+                    <li>About </li>
+                    <li>Portofolio </li>
+                    <li>Blog </li>
+                    <li>Contact</li>
+                  </ul>
+                </div>
+
+                <div className="flex-1 sm:mb-5">
+                  <p className="mb-4">SERVICE</p>
+                  <ul className=" flex flex-col gap-2">
+                    <li>User Experience </li>
+                    <li>User Interface </li>
+                    <li>Logotype </li>
+                    <li>See More </li>
+                  </ul>
+                </div>
+
+                {/* Social icons */}
+                <div className="flex gap-5">
+                  <div className="">
+                    <img src={facebook} />
+                  </div>
+                  <div className="">
+                    <img src={twitter} />
+                  </div>
+                  <div className="">
+                    <img src={instagram} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Bottom  footer */}
+          <div className="container mt-5 flex md:flex-row sm:flex-col sm:gap-5 justify-between">
+            <p>Copyright 2020 Laaqiq. All Rights Reserved</p>
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
           </div>
         </div>
       </div>
