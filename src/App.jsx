@@ -83,7 +83,7 @@ function App() {
         </div>
 
         {/* Explore */}
-        <div className="bg-[#FFFFF] py-20">
+        <div className=" py-20">
           <div className="container">
             <h2 className="font-semibold text-[2.475rem] mb-5 text-center leading-tight">
               Explore Service
@@ -171,10 +171,10 @@ function App() {
               <div className="flex gap-10">
                 <div className="flex-1  sm:mb-10">
                   <h6>User Interface</h6>
-                  <h2 className="font-outfit font-semibold text-[3.475rem] leading-tight mb-5">
+                  <h2 className="font-inter font-semibold text-[3.475rem] leading-tight mb-5">
                     Creative Agency <br />& Portfolio
                   </h2>
-                  <p className="font-dmsans text-base mb-5">
+                  <p className="font-inter text-base mb-5">
                     Web designers plan, create and code internet sites and web
                     pages, text with sounds.
                   </p>
@@ -313,7 +313,7 @@ function App() {
         </div>
 
         {/* Our testimonial */}
-        <div className="bg-[#FFFFF] py-20">
+        <div className=" py-20">
           <div className="container">
             <h2 className="font-semibold text-[2.475rem] mb-5 text-center leading-tight">
               Our Testimonials
