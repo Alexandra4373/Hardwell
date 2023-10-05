@@ -19,6 +19,9 @@ import digitalside from "./assets/digitalside.png";
 import fuzion from "./assets/fuzion.png";
 import vortex from "./assets/vortex.png";
 import travel from "./assets/travel.png";
+import blog1 from "./assets/blog1.png";
+import blog2 from "./assets/blog2.png";
+import blog3 from "./assets/blog3.jpg";
 
 function App() {
   return (
@@ -218,7 +221,7 @@ function App() {
 
         {/* Analyze % Improve */}
         <div className="py-20">
-          <div className="container flex sm:flex-col md:flex-row items-center gap-10 ">
+          <div className="container flex sm:flex-col md:flex-row items-center  sm:align-center gap-10 ">
             <div className="flex-1 sm:mb-10">
               <h2 className="font-semibold text-[3.475rem] leading-tight mb-5">
                 Analyze <br />& Improve
@@ -387,9 +390,60 @@ function App() {
               <div className="">
                 <img src={fuzion} alt="" />
               </div>
-              {/* <div className="">
-                <img src={} alt="" />
-              </div> */}
+            </div>
+          </div>
+        </div>
+
+        {/* Latest blogs*/}
+        <div className=" py-20">
+          <div className="container">
+            <h2 className="font-inter font-semibold text-[3.475rem] mb-5 text-center leading-tight">
+              Latest blogs
+            </h2>
+
+            {/* Blogs */}
+            <div className="flex flex-wrap gap-10">
+              <div className="flex-1 p-10 bg-white">
+                <div className="mb-5 flex justify-center">
+                  <img src={blog1} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px] mb-5 text-start">
+                  Build prototypes with thousands of components.
+                </p>
+                <p className="font-inter text-base text-start">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches.
+                </p>
+                <h5 className="mt-5">Read more</h5>
+              </div>
+
+              <div className="flex-1 p-10">
+                <div className="mb-5 flex justify-center">
+                  <img src={blog2} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px] mb-5 text-start">
+                  Build prototypes with thousands of components.
+                </p>
+                <p className="font-inter text-base text-start">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches.
+                </p>
+                <h5 className="mt-5">Read more</h5>
+              </div>
+
+              <div className="flex-1 p-10 bg-white">
+                <div className="mb-5 flex justify-center">
+                  <img src={blog3} alt="" />
+                </div>
+                <p className="font-inter font-semibold text-[20px] mb-5 text-start">
+                  Build prototypes with thousands of components.
+                </p>
+                <p className="font-inter text-base text-start">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches.
+                </p>
+                <h5 className="mt-5">Read more</h5>
+              </div>
             </div>
           </div>
         </div>
