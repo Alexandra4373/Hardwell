@@ -314,41 +314,41 @@ function App() {
 
             <div className="flex flex-wrap sm:flex-col sm:justify-center md:flex-row gap-10">
               <div className="flex-1 p-10 bg-white">
-                <div className="mb-5 flex justify-start">
-                  <img src={product} alt="" />
-                </div>
-                <p className="font-inter font-semibold text-[20px] text-start">
-                  Product Management
-                </p>
                 <p className="font-inter text-base mt-5 text-start">
-                  Stay on top of your task lists and stay in touch with what's
-                  happening
+                  Lorem ipsum dolor sit amet, con adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis
                 </p>
+                <div className="mb-5 flex justify-start">
+                  <img src={billy} alt="" />
+                  <h4>BILLY ROOT</h4>
+                  <h5>Torest</h5>
+                </div>
               </div>
               <div className="flex-1 p-10 ">
-                <div className="mb-5 flex justify-start">
-                  <img src={design} alt="" />
-                </div>
-                <p className="font-inter font-semibold text-[20px]  text-start">
-                  Design & Creatives
-                </p>
                 <p className="font-inter text-base mt-5 text-start">
-                  Stay on top of your task lists and stay in touch with what's
-                  happening
+                  Lorem ipsum dolor sit amet, con adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis
                 </p>
+                <div className="mb-5 flex justify-start">
+                  <img src={billy} alt="" />
+                  <h4>BILLY ROOT</h4>
+                  <h5>Torest</h5>
+                </div>
               </div>
 
               <div className="flex-1 p-10 bg-white">
-                <div className="mb-5 flex justify-start">
-                  <img src={marketing} alt="" />
-                </div>
-                <p className="font-inter font-semibold text-[20px]  text-start">
-                  Marketing & Communication
-                </p>
                 <p className="font-inter text-base mt-5 text-start">
-                  Stay on top of your task lists and stay in touch with what's
-                  happening.
+                  Lorem ipsum dolor sit amet, con adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis
                 </p>
+                <div className="mb-5 flex justify-start">
+                  <img src={billy} alt="" />
+                  <h4>BILLY ROOT</h4>
+                  <h5>Torest</h5>
+                </div>
               </div>
             </div>
           </div>
