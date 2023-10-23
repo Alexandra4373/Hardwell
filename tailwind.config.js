@@ -20,11 +20,6 @@ export default {
 				padding: "1.2rem",
 				center: true,
 			},
-			screens: {
-				sm: "640px",
-				md: "1060px",
-				lg: "1200px",
-			},
 		},
 	},
 	plugins: [],
