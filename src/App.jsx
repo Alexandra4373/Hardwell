@@ -62,7 +62,7 @@ function App() {
 								<p className="sm:text-left text-center">
 									Ninad Creative Agency
 								</p>
-								<h1 className="font-bold sm:text-[3.25rem] text-[2.8rem] text-center">
+								<h1 className="font-bold sm:text-[3.25rem] text-[2.8rem] text-center sm:text-left">
 									Creative <span className="text-primary">Mind</span> With
 									Creative People
 								</h1>
