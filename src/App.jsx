@@ -57,23 +57,25 @@ function App() {
 
 					{/* Hero */}
 					<div className="bg-[#F2F2F2]">
-						<div className="container flex md:flex-row sm:flex-col gap-12 justify-center items-center py-10">
-							<div className="w-[55%] font-open flex gap-5 flex-col">
-								<p>Ninad Creative Agency</p>
-								<h1 className="font-bold text-[3.25rem]">
+						<div className="container flex sm:flex-row flex-col gap-12 sm:justify-center sm:items-center py-10">
+							<div className="sm:w-[55%] font-open flex gap-5 flex-col">
+								<p className="sm:text-left text-center">
+									Ninad Creative Agency
+								</p>
+								<h1 className="font-bold sm:text-[3.25rem] text-[2.8rem] text-center">
 									Creative <span className="text-primary">Mind</span> With
 									Creative People
 								</h1>
-								<p className="text-lg">
+								<p className="text-lg sm:text-left text-center">
 									It is a long established fact that a reader will be distracted
 									by the readable content of a page when at its layout.
 								</p>
-								<div className=" text-white text-base">
+								<div className=" text-white text-base flex justify-center sm:justify-start">
 									<button className="bg-primary px-10">Read more</button>
 								</div>
 							</div>
 							{/* Image */}
-							<div className="w-[45%] flex justify-center items-center">
+							<div className="sm:w-[45%] flex justify-center items-center">
 								<img src={creative} alt="" />
 							</div>
 						</div>
@@ -167,9 +169,9 @@ function App() {
 					</p>
 				</div>
 				<div className="bg-primary text-white py-10">
-					<div className="container flex gap-10">
+					<div className="container flex flex-col sm:flex-row gap-10">
 						<div className="flex-1 flex flex-col justify-center items-center">
-							<div className="w-[80%]">
+							<div className="sm:w-[80%]">
 								<h6>User Interface</h6>
 								<h2 className="text-white font-outfit font-semibold text-[3.475rem] leading-tight mb-5">
 									Creative Agency <br />& Portfolio
@@ -199,7 +201,7 @@ function App() {
 
 			{/* Ratings */}
 			<div className="py-20">
-				<div className="container font-epilogue flex justify-center md:flex-row sm:flex-wrap sm:flex-col sm:gap-10">
+				<div className="container font-epilogue flex justify-center sm:flex-row flex-col flex-wrap sm:gap-10">
 					<div className="flex-1  text-center border rounded py-8 ">
 						<h2 className="font-bold text-secondary">
 							4.200 <span className="text-md">%</span>
@@ -226,10 +228,10 @@ function App() {
 
 			{/* Analyze % Improve */}
 			<div className="py-20">
-				<div className="container flex mb-[15rem] sm:flex-col md:flex-row items-center  sm:align-center gap-10 ">
+				<div className="container flex mb-[15rem] flex-col sm:flex-row items-center  sm:align-center gap-10 ">
 					<div className="flex-1 sm:mb-10">
 						<h2 className="font-semibold text-[3.475rem] leading-tight mb-5">
-							Analyze <br />& Improve
+							Analyze & Improve
 						</h2>
 						<p className="font-inter text-base mb-5">
 							Web designer is responsible for creating the design and layout of
@@ -479,14 +481,14 @@ function App() {
 
 			{/* Footer */}
 			<div className="bg-black pt-20 pb-10">
-				<div className="container text-white">
+				<div className="container text-white mb-10">
 					{/* Top footer */}
 					<div className="flex flex-col sm:flex-row gap-10 justify-between mb-5">
-						<div className="flex-1 p-10">
+						<div className="flex-1 p-10 ">
 							<h1>WD</h1>
 						</div>
 
-						<div className="flex-1">
+						<div className="flex-1 pl-10 sm:p-0">
 							<p className="mb-4 font-light">MENU</p>
 							<ul className="flex flex-col gap-2">
 								<li>About </li>
@@ -496,7 +498,7 @@ function App() {
 							</ul>
 						</div>
 
-						<div className="flex-1">
+						<div className="flex-1 pl-10 sm:p-0 ">
 							<p className="mb-4 font-light">SERVICE</p>
 							<ul className=" flex flex-col gap-2">
 								<li>User Experience </li>
@@ -507,7 +509,7 @@ function App() {
 						</div>
 
 						{/* Social icons */}
-						<div className="flex-1 flex items-center gap-5">
+						<div className="flex-1 flex items-center gap-5 pl-10 sm:p-0">
 							<div className="bg-white w-10 h-10 flex justify-center items-center rounded-full relative bg-opacity-10">
 								<img src={facebook} className="absolute z-10" />
 							</div>
